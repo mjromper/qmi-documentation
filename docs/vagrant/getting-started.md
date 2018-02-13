@@ -2,12 +2,12 @@
 
 ## Add the Vagrant box to Vagrant
 1. Launch your terminal or PowerShell if using Microsoft Windows
-* Browse to /qlik-base-os/
-* Find the file __Win2k16-virtualbox.box__ this is the output of building the base image from Packer
-* Enter __vagrant box add --name qlik/win2k16 win2k16-virtualbox.box__
-* Enter __vagrant box list__ and ensure the __qlik/win2k16__ box is present
+2. Browse to /qlik-base-os/
+3. Find the file __Win2k16-virtualbox.box__ this is the output of building the base image from Packer
+4. Enter __vagrant box add --name qlik/win2k16 win2k16-virtualbox.box__
+5. Enter __vagrant box list__ and ensure the __qlik/win2k16__ box is present
 ![vagrant-box-list](../img/vagrant-box-list.png)
-* This matches the value in the scenario.json file in the scenario folder
+6. This matches the value in the scenario.json file in the scenario folder
 ![vagrant-scenario](../img/scenarios-json.png)
 
 ## Update the Qlik Licenses
@@ -54,7 +54,7 @@ The version of Qlik that is installed with the scenario is determined by the def
 ## Qlik Version Updates
 The available versions to install are stored within /shared-content/binaries/qBinaryDownload.json.  This file needs to have the version and URL in order to download the entered version of Qlik Sense.
 
-```
+```json
 {
     "qliksense": [
         {

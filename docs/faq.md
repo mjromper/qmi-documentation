@@ -1,3 +1,5 @@
+# FAQ
+
 1. Can I change the location virtual machines are stored?
     Yes, this is set within virtualbox preferences. The default location is:
        * Windows: C:\Users\USERNAME\VirtualBox VMs

@@ -8,15 +8,15 @@ QMI has been built to a set of standards to enable fast and efficient usage and 
 ### Scenario Folder Name
 This is the parent folder containing the scenario content.
 
-[Scenario.json](scenario-json.md)
+[Scenario.json](./scenario-json.md)
 
-[Vagrantfile](vagrantfile.md)
+[Vagrantfile](./vagrantfile.md)
 
-[Readme.md](readme-md.md)
+[Readme.md](./readme-md.md)
 
-[Scripts](scripts.md)
+[Scripts](./scripts.md)
 
-[Files Folder](files.md)
+[Files Folder](./files.md)
 
 
 

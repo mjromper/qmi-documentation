@@ -8,7 +8,7 @@ pages:
   - 'What is Packer': 'packer/introduction.md'
   - 'Building the image': 'packer/building-the-image.md'
 - Scenarios:
-  - 'What are scenarios': 'scenarios/introduction.md'
+  - 'Scenario List': 'scenarios/introduction.md'
   - 'Anatomy of a scenario': 'scenarios/anatomy-of-a-scenario.md'
   - 'Scenario.json': 'scenarios/scenario-json.md'
   - 'Vagrantfile': 'scenarios/vagrantfile.md'

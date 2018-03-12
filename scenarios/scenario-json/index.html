@@ -32,7 +32,7 @@
         <meta name="lang:search.tokenizer" content="[\s\-]+">
       
       <link rel="shortcut icon" href="../../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-0.17.2, mkdocs-material-2.6.0">
+      <meta name="generator" content="mkdocs-0.17.3, mkdocs-material-2.7.0">
     
     
       
@@ -40,13 +40,14 @@
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/application.aa3de92b.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/application.78aab2dc.css">
       
     
     
       <script src="../../assets/javascripts/modernizr.1aa3b519.js"></script>
     
     
+      <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
       
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono">
         <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
@@ -259,8 +260,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../introduction/" title="What are scenarios" class="md-nav__link">
-      What are scenarios
+    <a href="../introduction/" title="Scenario List" class="md-nav__link">
+      Scenario List
     </a>
   </li>
 
@@ -324,6 +325,8 @@
     </nav>
   
 </li>
+      
+      
       
       
       
@@ -499,6 +502,8 @@
       
       
       
+      
+      
     </ul>
   
 </nav>
@@ -518,37 +523,37 @@
 <p>This file contains information on the scenario. And is used during the creation of the virtual machine.</p>
 <p><img alt="scenario-json" src="../../img/scenarios-json.png" /></p>
 <h4 id="description-of-scenariojson-fields">Description of scenario.json fields</h4>
-<ol>
-<li>name: The name of the scenario</li>
-<li>description: Text to describe what the scenario contains</li>
-<li>category: Category of scenario</li>
-<li>plugin-dependencies: Description of the Vagrant plug-ins that are required to run the scenario</li>
-<li>notes: Any information you wish to advise the user on</li>
-<li>version: Version of the scenario</li>
-<li>author: Name of the Author</li>
-<li>email: Email address</li>
-<li>disabled: Currently not used</li>
-<li>qlik-default-binary: The Qlik software to use by default</li>
-<li>resoures: URLS to present at the end of provisioning to enable users to connect</li>
-<li>config<ol>
-<li>allowUpdates: Currently not used</li>
-<li>Servers<ol>
-<li>name: The name that will be the hostname of the server</li>
-<li>ip: the IP address to assign the server</li>
-<li>box: the name of the Vagrant box to use</li>
-<li>memory: Amount of RAM to allocate</li>
-<li>cpus: The number of cores to allocate</li>
-<li>sense<ol>
-<li>central: if the server is a central node</li>
-<li>proxy: Currently not used</li>
-<li>persistence: Shared or Sync</li>
-</ol>
+<ul>
+<li><strong>name</strong>: The name of the scenario</li>
+<li><strong>description</strong>: Text to describe what the scenario contains</li>
+<li><strong>category</strong>: Category of scenario</li>
+<li><strong>plugin-dependencies</strong>: Description of the Vagrant plug-ins that are required to run the scenario</li>
+<li><strong>notes</strong>: Any information you wish to advise the user on</li>
+<li><strong>version</strong>: Version of the scenario</li>
+<li><strong>author</strong>: Name of the Author</li>
+<li><strong>email</strong>: Email address</li>
+<li><strong>disabled</strong>: Currently not used</li>
+<li><strong>qlik-default-binary</strong>: The Qlik software to use by default</li>
+<li><strong>resoures</strong>: URLS to present at the end of provisioning to enable users to connect</li>
+<li><strong>config</strong><ul>
+<li><strong>allowUpdates</strong>: Currently not used</li>
+<li><strong>Servers</strong><ul>
+<li><strong>name</strong>: The name that will be the hostname of the server</li>
+<li><strong>ip</strong>: the IP address to assign the server</li>
+<li><strong>box</strong>: the name of the Vagrant box to use</li>
+<li><strong>memory</strong>: Amount of RAM to allocate</li>
+<li><strong>cpus</strong>: The number of cores to allocate</li>
+<li><strong>sense</strong><ul>
+<li><strong>central</strong>: if the server is a central node</li>
+<li><strong>proxy</strong>: Currently not used</li>
+<li><strong>persistence</strong>: Shared or Sync</li>
+</ul>
 </li>
-</ol>
+</ul>
 </li>
-</ol>
+</ul>
 </li>
-</ol>
+</ul>
                 
                   
                 
@@ -618,9 +623,9 @@
       
     </div>
     
-      <script src="../../assets/javascripts/application.9fb73e57.js"></script>
+      <script src="../../assets/javascripts/application.8eb9be28.js"></script>
       
-      <script>app.initialize({version:"0.17.2",url:{base:"../.."}})</script>
+      <script>app.initialize({version:"0.17.3",url:{base:"../.."}})</script>
       
     
     

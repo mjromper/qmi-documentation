@@ -1,6 +1,6 @@
 site_name: Qlik Machine Images
 theme:
-  name: 'material'
+  name: 'mkdocs'
 pages:
 - Home: 'index.md'
 - Getting Started: 'getting-started.md'

@@ -1,4 +1,6 @@
-# What is it?
+# Scenarios
+
+## What is it?
 A scenario is a self contained machine image built for a purpose.  For example a Windows 2016 Server with Qlik Sense installed or a Windows 2016 Server with QlikView installed.
 
 The following scenarios are provided through the repository <a href="https://github.com/Qlik-Partner-Tools/qmi-scenarios" target="_blank">qmi-scenarios</a> 

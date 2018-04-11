@@ -1,5 +1,5 @@
 ## scenario.json file
-This file contains information on the scenario. And is used during the creation of the virtual machine.
+This file contains information on the scenario. And it is used during the creation of the virtual machine.
 
 ![scenario-json](../img/scenarios-json.png)
 
@@ -15,7 +15,7 @@ This file contains information on the scenario. And is used during the creation 
 * __email__: Email address
 * __disabled__: Currently not used
 * __qlik-default-binary__: The Qlik software to use by default
-* __resoures__: URLS to present at the end of provisioning to enable users to connect
+* __resoucres__: URLs to present at the end of provisioning to enable users to connect
 * __config__
     * __allowUpdates__: Currently not used
     * __Servers__

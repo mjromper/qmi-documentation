@@ -4,7 +4,7 @@
 1. Launch your text editor and open the qlik-base-os repository folder.
 ![packer-repo](../img/packer-repo.png)
 2. Open the Autounattend.xml file located in /answer_files/2016
-3. It is recommended that you enter a valid Windows 2016 Server Standard edition license key (however it is possible to use an Evaluation version of Windows.  If an evaluation version is to be used skip this step. 
+3. It is recommended that you enter a valid Windows 2016 Server Standard edition license key (if an evaluation version is to be used then skip this step).
 4. Search for __ProductKey__
 ![packer-windows-key](../img/packer-windows-key.png)
 5. Uncomment the key field and change the X's to be your license key

@@ -1,11 +1,11 @@
 ## Scripts
 
 Provision scripts
-Most scenarios utilise shared scripts to reduce the amount of programming and maintenance.  Every script that supports use in multiple scenarios is stored in /shared-content/scripts/modules.
-As an example of this reuse the Provisioner.ps1 from the Qlik Sense - Single Node can be evaluated.  These scripts can be reused in any scenario.
+Most scenarios utilize shared scripts to reduce the amount of programming and maintenance. Every script that supports use in multiple scenarios is stored in /shared-content/scripts/modules.
+As an example of this reuse, the Provisioner.ps1 from the Qlik Sense - Single Node can be evaluated. These scripts can be reused in any scenario.
 
 ### Note:
-The Shared-content folder is sourced from the [qlik-automation-core](https://github.com/Qlik-Partner-Tools/qlik-automation-core) repository that was initialised during the configuration of the environment.
+The Shared-content folder is sourced from the [qlik-automation-core](https://github.com/Qlik-Partner-Tools/qlik-automation-core) repository that was initialized during the configuration of the environment.
 
 ### Provisioner.ps1 script
 ```

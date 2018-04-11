@@ -1,7 +1,7 @@
 ## Files Folder
 
 The files folder should contain any files that you want to provision with the scenario.
-For example the qmi-qs-sn (Qlik Machine Image – Qlik Sense – Single Node) scenario contains the following.
+For example, the qmi-qs-sn (Qlik Machine Image – Qlik Sense – Single Node) scenario contains the following.
 
 This folder will be shared with the guest virtual machine and can provide the provisioning scripts with content.
 

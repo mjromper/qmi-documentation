@@ -52,7 +52,7 @@
 The version of Qlik that is installed with the scenario is determined by the default-qlik-binary field in __scenario.json__.  This value updates the /shared-content/binaries/qver.json file.
 
 ## Qlik Version Updates
-The available versions to install are stored within /shared-content/binaries/qBinaryDownload.json.  This file needs to have the version and URL in order to download the entered version of Qlik Sense.
+The available versions to install are stored within /shared-content/binaries/qBinaryDownload.json. This file needs to have the version and URL to download the entered version of Qlik Sense.
 
 ```json
 {

@@ -6,5 +6,5 @@ Vagrant is a tool for building and managing virtual machine environments in a si
 * Vagrant >= 2.1.1  
 * A built Vagrant Box [Building the image](../packer/building-the-image.md)
 * A decent text editor
-* Some knowledge about Packer, JSON and PowerShell
+* Some knowledge about Packer, JSON, and PowerShell
 

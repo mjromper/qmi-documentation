@@ -1,7 +1,7 @@
 # Getting Started
-The QMI getting started guide will walk you through the installation and configuration of the components that QMI utilises.
+The QMI Getting Started Guide will walk you through the installation and configuration of the components that QMI utilizes.
 
-QMI is built on the shoulders of industry leading and industry standard technologies and has been tested with Microsoft Windows, Apple OSX and various flavours of Linux (Ubuntu, CentOS).
+QMI is built on industry-standard technologies and has been tested with Microsoft Windows, Apple OSX and various flavors of Linux (Ubuntu, CentOS).
 
 ## Getting the pre-requisites
 ### Downloads
@@ -9,7 +9,7 @@ QMI is built on the shoulders of industry leading and industry standard technolo
 2. <a href="https://www.vagrantup.com/downloads.html" target="_blank">Hashicorp Vagrant</a>
 3. <a href="https://www.virtualbox.org/wiki/Downloads" target="_blank">Oracle VirtualBox</a>
 
-Note: As these technologies are Open Source there can at times be incompatibilities between versions.  Be sure to review the documentation on these applications before upgrading.
+Note: As these technologies are openly licensed (open source) there can at times be incompatibilities between versions. Be sure to review the documentation on these applications before upgrading.
 
 ### Installation
 Install the applications as per the documentation for each application.

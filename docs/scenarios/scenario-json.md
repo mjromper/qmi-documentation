@@ -15,7 +15,7 @@ This file contains information on the scenario. And it is used during the creati
 * __email__: Email address
 * __disabled__: Currently not used
 * __qlik-default-binary__: The Qlik software to use by default
-* __resoucres__: URLs to present at the end of provisioning to enable users to connect
+* __resources__: URLs to present at the end of provisioning to enable users to connect
 * __config__
     * __allowUpdates__: Currently not used
     * __Servers__
